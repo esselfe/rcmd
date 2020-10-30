@@ -1,0 +1,12 @@
+201030
+rcmd is a reverse (from cloud to home) remote shell access program.
+I started this project since I could ssh to my server from home,
+but couldn't ssh home from my server since my ISP blocks inbound
+traffic. The program runs in daemon mode at home and in listen mode
+on the server.
+
+The program uses a simple symmetric encryption using a key which
+can be generated randomly.
+
+To compile the program, run 'make' within the source directory.
+Run './rcmd -h' to see all available options.
