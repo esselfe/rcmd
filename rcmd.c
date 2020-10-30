@@ -43,8 +43,9 @@ static const struct option long_options[] = {
 static const char *short_options = "hVDdg:H:I:i:k:lp:t";
 
 void Help(void) {
-printf("Usage: rcmd { -h/--help | -V/--version | -D/--debug | -d/--daemon | -g/--genkey }\n"
-"\t{ -k/--keyname | -I/--remote-ip | -i/--local-ip | -l/--listen | -p/--port | -t/--test }\n");
+printf("Usage: rcmd { -h/--help | -V/--version | -D/--debug | -d/--daemon }\n"
+" { -g/--genkey | -H/--hostname | -k/--keyname | -I/--remote-ip }\n"
+" { -i/--local-ip | -l/--listen | -p/--port | -t/--test }\n");
 }
 
 // Key used when there's no key, otherwise changed by GenKey() or LoadKey()
