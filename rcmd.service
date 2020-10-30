@@ -1,0 +1,12 @@
+[Install]
+WantedBy=multi-user.target
+
+[Unit]
+Description=Shell access from cloud
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/tmp
+ExecStart=/usr/local/bin/rcmd -d
+RemainAfterExit=yes
