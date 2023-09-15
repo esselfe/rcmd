@@ -1,5 +1,5 @@
 
-CFLAGS= -std=c11 -Wall -Werror -O2 -D_DEFAULT_SOURCE
+CFLAGS= -std=c11 -Wall -O2 -D_DEFAULT_SOURCE
 LDFLAGS= -lssl -lcrypto
 PROGNAME= rcmd
 
