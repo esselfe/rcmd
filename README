@@ -6,7 +6,8 @@ traffic. The program runs in daemon mode at home and in listen mode
 on the server.
 
 The program uses a simple symmetric encryption using a key which
-can be generated randomly.
+can be generated randomly. This key will be used for Caesar cipher
+processing of transitting text.
 
 To compile the program, run 'make' within the source directory.
 Run './rcmd -h' to see all available options.
