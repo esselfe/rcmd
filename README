@@ -7,7 +7,7 @@ on the server.
 
 The program uses a simple symmetric encryption using a key which
 can be generated randomly. This key will be used for Caesar cipher
-processing of transitting text.
+processing of transmitting text.
 
 To compile the program, run 'make' within the source directory.
 Run './rcmd -h' to see all available options.
